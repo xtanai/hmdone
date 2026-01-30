@@ -20,6 +20,16 @@ All pose estimation is handled externally.
 
 ---
 
+## Synthetic XR
+
+The headset may not need onboard XR cameras if the experience is driven by a **synthetic XR scene**—for example, rendering from a tracked **ROI point cloud** or **proxy geometry** instead of real-world passthrough video. This can reduce headset weight and complexity.
+
+For limited real-world context, a simple approach is to mount a **single RGB camera** (centered between the stereo cameras) and use it only to add **lightweight color information** to the ROI—e.g., **colored points** or a sparse texture overlay—rather than streaming full-resolution passthrough.
+
+> **Note:** Full real-world integration is possible, but works best when the environment is **mostly static**. In highly dynamic scenes (moving objects, changing lighting, fast motion), the reconstruction becomes more constrained and passthrough fidelity may be limited.
+
+---
+
 ## Key Characteristics
 
 - **No internal IMU**
