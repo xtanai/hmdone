@@ -74,16 +74,6 @@ No USB is required for tracking.
 
 HMDone is **not** intended as a consumer all-in-one headset.
 
----
-
-## Ecosystem
-
-HMDone is designed to work as part of the **xtan.ai / EdgeTrack ecosystem**:
-
-- **EdgeTrack** — external stereo tracking
-- **CoreFusion** — multi-view fusion & calibration
-- **MotionCoder** — semantic interaction layer
-- **Pen3D** — precision 3D input device
 
 ---
 
